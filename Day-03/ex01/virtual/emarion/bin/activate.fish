@@ -29,7 +29,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/emarion/github/Piscine-Python-Data-Science/Day-03/ex00/virtual/emarion"
+set -gx VIRTUAL_ENV "/Users/emarion/github/Piscine-Python-Data-Science/Day-03/ex01/virtual/emarion"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

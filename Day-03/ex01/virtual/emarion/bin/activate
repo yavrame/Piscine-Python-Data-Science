@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/emarion/github/Piscine-Python-Data-Science/Day-03/ex00/virtual/emarion"
+VIRTUAL_ENV="/Users/emarion/github/Piscine-Python-Data-Science/Day-03/ex01/virtual/emarion"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
