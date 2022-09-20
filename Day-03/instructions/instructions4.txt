@@ -1,0 +1,33 @@
+Профилирование и отладка
+Профилирование — сбор характеристик работы программы 
+с целью их дальнейшей оптимизации.
+
+https://habr.com/ru/company/vk/blog/201594/
+https://habr.com/ru/company/vk/blog/201778/
+https://habr.com/ru/company/vk/blog/202832/
+
+cProfile рекомендуется большинству пользователей; 
+это C расширение с разумными накладными расходами, 
+что делает его подходящим для профилирования долго работающих программ.
+https://digitology.tech/docs/python_3/library/profile.html
+
+
+args
+'MSFT' 'Total Revenue'
+
+
+
+#1 run this code
+python3 -m cProfile -s time financial.py 'MSFT' 'Total Revenue' > profiling-sleep.txt
+
+#2 run this code
+python3 -m cProfile -s time financial.py 'MSFT' 'Total Revenue' > profiling-tottime.txt
+
+#3 run this code
+python3 -m cProfile -s time financial_enhanced.py 'MSFT' 'Total Revenue' > profiling-http.txt
+
+#4 run this code
+python3 -m cProfile -s ncalls financial_enhanced.py 'MSFT' 'Total Revenue' > profiling-ncalls.txt
+
+#5 run this code
+python3 -m cProfile financial_enhanced.py 'MSFT' 'Total Revenue' > pstats-cumulative.txt

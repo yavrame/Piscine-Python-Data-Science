@@ -1,0 +1,22 @@
+no - install http.client library
+
+
+
+вернуть кортеж и распечатать его (кортеж это списки разных типов данных)
+https://pythonworld.ru/tipy-dannyx-v-python/kortezhi-tuple.html
+
+
+
+Python Requests
+
+python -m pip install requests
+https://www.digitalocean.com/community/tutorials/how-to-get-started-with-the-requests-library-in-python-ru
+
+BeautifulSoup
+https://realpython.com/beautiful-soup-web-scraper-python/
+
+
+Cmd+Opt+I - Inspect page
+
+Конструктор генератор списков
+https://pythonworld.ru/tipy-dannyx-v-python/spiski-list-funkcii-i-metody-spiskov.html

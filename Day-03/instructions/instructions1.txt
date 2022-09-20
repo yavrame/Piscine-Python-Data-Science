@@ -1,0 +1,37 @@
+Termgraph - консольная утилита для рисования графиков
+https://xakep.ru/2018/09/14/www-termgraph/ 
+
+Пример графика №4
+https://github.com/mkaz/termgraph
+https://pypi.org/project/termgraph/
+
+
+Установка библиотеки termgraph
+python3 -m pip install termgraph
+
+запустить скрипт
+./pies_bars.sh
+
+
+
+Обновить пип
+/Users/marlean/Desktop/Python_DS/Day03/ex01/virtual/marlean/bin/python3 -m pip install --upgrade pip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+не надо
+# Установка библиотеки colorama
+# pip install colorama

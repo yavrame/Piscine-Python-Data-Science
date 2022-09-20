@@ -1,0 +1,23 @@
+Установить виртуальное окружение
+# pip3 install virtualenv
+
+создать папку, в которой будет храниться окружение
+# mkdir virtual
+# cd virtual
+
+#Создать виртуальное окружение
+python3 -m venv emarion
+
+#Активировать виртуальное окружение
+source virtual/emarion/bin/activate
+
+Запустить код, который выводит pwd
+# cd ../include
+# python3 venv.py
+
+Деактивировать и запустить код снова
+# deactivate
+# python3 venv.py
+
+Что это и зачем нужно
+https://prognote.ru/other/creating-virtual-environments-python/
